@@ -1,0 +1,31 @@
+{
+    "manufacturer": "bhavya",
+    "keyboard_name": "bhavya/macropad",
+    "maintainer": "bhavyangupta",
+    "diode_direction": "COL2ROW",
+    "bootloader": "caterina",
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true
+    },
+    "matrix_pins": {
+        "rows": ["E6", "B4", "B5"],
+        "cols": ["B3", "B2", "B6"]
+    },
+    "processor": "atmega32u4",
+    "url": "",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x2341",
+        "vid": "0x0036"
+    },
+    "layouts": {
+	    "LAYOUT": {
+		    "layout": [{"x":0, "y":0}, {"x":1, "y":0}, {"x":2, "y":0}, {"x":0, "y":1}, {"x":1, "y":1}, {"x":2, "y":1}, {"x":0, "y":2}, {"x":1, "y":2}, {"x":2, "y":2}]
+	    }
+    }
+}
